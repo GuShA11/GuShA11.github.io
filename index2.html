@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Mi página web personalizada</title>
+	<style type="text/css">
+		body{
+			font-family: Courier New;
+			background: teal;
+		}
+		#contenedor{
+			color: white;
+			background: teal;
+			margin-right:25%;
+			margin-left:25%;
+			margin-top:5%;
+			padding: 5em;
+			border: 10px solid black;
+		}
+		form fieldset{
+			border: 5px solid black;
+		}
+		form fieldset:hover {
+			border: 5px solid ;
+			transition: 1s;
+		}
+        #boton1 {/*forma del boton para que el tamaño de la letra en el boton sea mayor y destaque más*/
+          border-top: 2px solid black;
+          border-bottom: 1px solid white;
+          width: 45%;
+          background-color: white;
+          margin: 0;
+          padding: 0.3em;
+	      font-size: 1em;
+        }
+        #boton2 {
+          border-top: 2px solid black;
+          border-bottom: 1px solid white;
+          width: 45%;
+          background-color: white;
+          margin: 0;
+          padding: 0.3em;
+	      font-size: 1em;
+        }
+        #boton1:hover{
+          background-color:yellow;
+          margin: 0;
+          padding: 0.3em;
+        }
+        #boton2:hover{
+          background-color:tomato;
+          margin: 0;
+          padding: 0.3em;
+        }
+		.foto1 { padding: 10px; margin: 10px; border: 2px solid black; float: left; width: 250px; }
+	</style>
+</head>
+<body>
+	<font size="+1">
+	<div id="contenedor">
+<img class="foto1" src="https://c.tenor.com/NhT7sjXfknYAAAAC/hello-welcome.gif" alt="imagen 1">
+	<form action="https://www.google.es/">
+		<fieldset>
+			<legend>Datos personales</legend>
+			Usuario<br/><input type="text" name="nombre" value="" maxlength="30" size="30"><br/><br/>
+			Contraseña<br/><input type="password" name="nombre" value="" maxlength="30" size="30"><br/><br/>
+		<input type="submit" id="boton1" value="Entrar en la página" name=""> <input id="boton2" type="reset" name="limpiar" value="Borrar Datos"><br/></b>
+	</form>
+	</form>
+</div>
+</body>
+</html>

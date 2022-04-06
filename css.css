@@ -604,14 +604,10 @@
 				border: 5px brown;
 				border-radius: 20px;
 				background-color: #592D14;
-				margin-right:59.1%;
-				margin-left:20%;
+				margin-right:60.1%;
+				margin-left:19%;
 				margin-top:2%;
 				padding: 1.5em;
-				transition-property: width;
-				transition-duration: 0.5s;
-				transition-timing-function: linear;
-				transition-delay: 0.3s;
 			}
 			#contacto2{
 				box-shadow: 4px 4px 15px black;
@@ -620,38 +616,21 @@
 				height: 200px;
 				border-radius: 20px;
 				background-color: #592D14;
-				margin-right:43%;
-				margin-left:42%;
-				margin-top:-13.5%;
+				margin-right:44%;
+				margin-left:41%;
+				margin-top:-12.9%;
 				padding: 1.5em;
-				transition-property: width;
-				transition-duration: 0.5s;
-				transition-timing-function: linear;
-				transition-delay: 0.3s;
 			}
 			#contacto3{
 				box-shadow: 4px 4px 15px black;
-				width: 270px;
+				width: 300px;
 				height: 200px;
 				border-radius: 20px;
 				background-color: #592D14;
-				margin-right:22.8%;
-				margin-left:62.2%;
-				margin-top:-13.7%;
+				margin-right:23.8%;
+				margin-left:61.2%;
+				margin-top:-12.7%;
 				padding: 1.5em;
-				transition-property: width;
-				transition-duration: 0.5s;
-				transition-timing-function: linear;
-				transition-delay: 0.3s;
-			}
-			#contacto1:hover{
-				width: 300px;
-			}
-			#contacto2:hover{
-				width: 300px;
-			}
-			#contacto3:hover{
-				width: 300px;
 			}
 			#contacto1,#contacto2,#contacto3{
 				color: white;
