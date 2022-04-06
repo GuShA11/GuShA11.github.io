@@ -1,0 +1,764 @@
+		/*Pagina de Validacion*/
+		#bodyValidacion{
+			font-family: "Courier New", Courier, monospace;
+			background: rgb(150, 200, 150);
+		}
+		#contenedor{
+			font-size: 20px;
+			border: 5px brown;
+			border-radius: 20px;
+			color: white;
+			background: #592D14;
+			margin-right:25%;
+			margin-left:25%;
+			margin-top:10%;
+			padding: 5em;
+		}
+		form fieldset{
+			margin-top: 0.5%;
+			width: 36%;
+			border: 5px solid black;
+		}
+		form fieldset:hover {
+			border: 5px solid #A68160;
+			transition: .6s;
+		}
+		#boton1 {/*forma del boton para que el tamaño de la letra en el boton sea mayor y destaque más*/
+			font-family: monospace;
+			border-radius:30px;
+			border-top: 2px solid black;
+			border-bottom: 1px solid white;
+			width: 32%;
+			background-color: white;
+			margin: 0;
+			padding: 0.3em;
+			font-size: 20px;
+		}
+		#boton2 {
+			font-family: monospace;
+			border-radius:30px;
+			border-top: 2px solid black;
+			border-bottom: 1px solid white;
+			width: 55%;
+			background-color: white;
+			margin: 0;
+			padding: 0.3em;
+			font-size: 20px;
+		}
+		#boton1:hover{
+			transition: .4s;
+			background-color:#3BB06F;
+			margin: 0;
+			color: white;
+			padding: 0.3em;
+		}
+		#boton2:hover{
+			transition: .4s;
+			background-color:#D35400;
+			margin: 0;
+			color: white;
+			padding: 0.3em;
+		}
+		/*******************Pagina_Prinicipal**************************/
+		body{
+			background-color:rgb(150, 200, 150);/*#9DB678*/
+		}
+		/***************CONTENEDOR PAGINA PRINCIPAL*****************/
+		#contenedorMenu{
+			box-shadow: 4px 4px 5px black;
+			font-size: 20px;
+			border: 5px brown;
+			border-radius: 20px;
+			color: white;
+			background: #592D14;
+			margin-right:20%;
+			margin-left:20%;
+			margin-top:.7%;
+			padding: 4em;
+		}
+		/*****************MENU*************/
+		#menu ul {
+			margin: 0 10px;
+			margin-left: -2.19%;
+			padding: 0;
+			margin-top: 27%;
+			list-style:none;
+		}
+		#menu ul li {
+			margin: 0 5px 0 0;
+			float:left;
+		}
+
+		#menu ul li a {
+			border-radius: 15px;
+			display: block;
+			position: relative;
+			padding: 5px 15px;
+			border: 0;
+			background: black;
+			color: white;
+			font-weight: bold;
+			text-decoration: none;
+			cursor: pointer;
+		}
+
+		#menu ul li a:hover {
+			background: grey;
+			transition: 0.2s;
+		}
+		/**************SELECCIONADO*************/
+		#menu li.seleccionado a{
+			background-color: white;
+			color: black;
+		}
+		/***************Articulo_1**************/
+		#articulo1{
+			box-shadow: 4px 4px 5px black;
+			border: 5px brown;
+			border-radius: 20px;
+			background-color: #592D14;
+			margin-right:20%;
+			margin-left:20%;
+			margin-top:1%;
+			padding: 1em;
+		}
+		#articulo1 p{
+			margin-top: 1%;
+		}
+		/***************Articulo_2**************/
+		#articulo2{
+			box-shadow: 4px 4px 5px black;
+			border: 5px brown;
+			border-radius: 20px;
+			background-color: #592D14;
+			margin-right:20%;
+			margin-left:20%;
+			margin-top:1%;
+			padding: 1em;
+			padding-bottom: 80px;
+		}
+		#articulo2 p{
+			margin-top: 11%;
+			color: white;
+			font-family: Bukhari Script, sans-serif;
+			text-shadow: 1px 1px;
+			font-size: 20px;
+		}
+		/********************FOOTER******************/
+		footer {
+			box-shadow: 4px 4px 5px black;
+			background-color: black;
+			margin-right:20%;
+			margin-left:20%;
+			margin-top: .5%;
+			padding: 1.5em;
+			text-align: center;
+			color: white;
+			border-radius: 15px;
+		}
+		#menu2 ul {
+			list-style:none;
+			margin-left: 21%;
+			margin-top: -1%;
+		}
+		#menu2 ul li a {
+			border-radius: 15px;
+			float: left;
+			display: block;
+			position: relative;
+			padding: 5px 15px;
+			border: 0;
+			background: black;
+			color: white;
+			font-weight: bold;
+			text-decoration: none;
+			cursor: pointer;
+		}
+
+		#menu2 ul li a:hover {
+			background: grey;
+			transition: 0.2s;
+		}
+		/*****************AVISO_LEGAL****************/
+		#avisolegal{
+			box-shadow: 4px 4px 5px black;
+			border: 5px brown;
+			border-radius: 20px;
+			background-color: #592D14;
+			margin-right:20%;
+			margin-left:20%;
+			margin-top:.5%;
+			padding: 1em;
+		}
+		#avisolegal p{
+			margin-top: 13%;
+			color: white;
+			font-family: Bukhari Script, sans-serif;
+			text-shadow: 1px 1px;
+			font-size: 20px;
+			}/*****************COOKIES****************/
+			#cookies{
+				box-shadow: 4px 4px 5px black;
+				border: 5px brown;
+				border-radius: 20px;
+				background-color: #592D14;
+				margin-right:20%;
+				margin-left:20%;
+				margin-top:.5%;
+				padding: 2em;
+			}
+			#cookies p{
+				color: white;
+				font-family: Bukhari Script, sans-serif;
+				text-shadow: .5px .5px;
+				font-size: 20px;
+			}
+			/*****************Habitaciones_****************/
+			#habitacionesIMG{
+				box-shadow: 4px 4px 5px black;
+				border: 5px brown;
+				border-radius: 20px;
+				background-color: #592D14;
+				margin-right:30%;
+				margin-left:30%;
+				margin-top:2%;
+				margin-bottom: 2%;
+				padding: 2em;
+			}
+			/*CAJA DE TODAS LAS HABITACIONES*/
+			#HABITACIONES{
+				display: inline;
+			}
+			/*******************CAJA_HABITACIONES_1**********************/
+			#cajaHabitaciones1{
+				float: left;
+				margin: 0em auto;
+				margin-right: 5%;
+				margin-left: 2%;
+				width: 26%;
+				border-radius: 20px;
+				box-shadow: 4px 4px 15px black;
+				background-color: #592D14;
+				padding: 1.5em;
+			}
+			#FONTE{
+				color: white;
+				font-family: Bukhari Script, sans-serif;
+				text-shadow: .5px .5px;
+				font-size: 19px;
+				padding: 1em;
+			}
+			#HORTENSIAS{
+				color: white;
+				font-family: Bukhari Script, sans-serif;
+				text-shadow: .5px .5px;
+				font-size: 19px;
+				padding: 1.5em;
+			}
+			/*******************CAJA_HABIACIONES_2**********************/
+			#cajaHabitaciones2{
+				float: left;
+				margin: 0 auto;
+				margin-right: 5%;
+				width: 26%;
+				border-radius: 20px;
+				box-shadow: 4px 4px 15px black;
+				background-color: #592D14;
+				padding: 1.5em;
+			}
+			#BOSQUE{
+				color: white;
+				font-family: Bukhari Script, sans-serif;
+				text-shadow: .5px .5px;
+				font-size: 19px;
+				padding: 1em;
+			}
+			#VALE{
+				color: white;
+				font-family: Bukhari Script, sans-serif;
+				text-shadow: .5px .5px;
+				font-size: 19px;
+				padding: 1.5em;
+			}
+			/*******************CAJA_HABITACIONES_3**********************/
+			#cajaHabitaciones3{
+				margin-left: 5%;
+				float: left;
+				margin: 0 auto;
+				width: 26%;
+				border-radius: 20px;
+				box-shadow: 4px 4px 15px black;
+				background-color: #592D14;
+				padding: 1.5em;
+			}
+			#MIRADOIRO{
+				color: white;
+				font-family: Bukhari Script, sans-serif;
+				text-shadow: .5px .5px;
+				font-size: 19px;
+				padding: 1em;
+			}
+			#TERRAZA{
+				color: white;
+				font-family: Bukhari Script, sans-serif;
+				text-shadow: .5px .5px;
+				font-size: 19px;
+				padding: 1.5em;
+			}
+			/*******************FONTE**********************/
+			#habitacionesFONTE{
+				box-shadow: 4px 4px 15px black;
+				border: 5px brown;
+				border-radius: 20px;
+				background-color: #592D14;
+				margin-right:69.8%;
+				margin-left:3%;
+				margin-top:.8%;
+				padding: 1.5em;
+				padding-bottom: -1em;
+			}
+			#habitacionesFONTE p{
+				color: white;
+				font-family: Bukhari Script, sans-serif;
+				text-shadow: .5px .5px;
+				font-size: 19px;
+			}
+			/*******************HORTENSIAS**********************/
+			#habitacionesHORTENSIAS{
+				box-shadow: 4px 4px 15px black;
+				border: 5px brown;
+				border-radius: 20px;
+				background-color: #592D14;
+				margin-right:36.9%;
+				margin-left:36%;
+				margin-top:-30.7%;
+				padding: 1.5em;
+				padding-bottom: 2.3em;
+			}
+			#habitacionesHORTENSIAS p{
+				color: white;
+				font-family: Bukhari Script, sans-serif;
+				text-shadow: .5px .5px;
+				font-size: 20px;
+			}
+			/*******************VALE**********************/
+			#habitacionesVALE{
+				box-shadow: 4px 4px 15px black;
+				border: 5px brown;
+				border-radius: 20px;
+				background-color: #592D14;
+				margin-right:36.9%;
+				margin-left:36%;
+				margin-top:-31.1%;
+				padding: 1.5em;
+			}
+			#habitacionesVALE p{
+				color: white;
+				font-family: Bukhari Script, sans-serif;
+				text-shadow: .5px .5px;
+				font-size: 20px;
+			}
+			/*******************MIRADOIRO**********************/
+			#habitacionesMIRADOIRO{
+				box-shadow: 4px 4px 15px black;
+				border: 5px brown;
+				border-radius: 20px;
+				background-color: #592D14;
+				margin-right:3.7%;
+				margin-left:69%;
+				margin-top:-64.2%;
+				padding: 1.4em;
+			}
+			#habitacionesMIRADOIRO p{
+				color: white;
+				font-family: Bukhari Script, sans-serif;
+				text-shadow: .5px .5px;
+				font-size: 20px;
+			}
+			/*******************TERRAZA**********************/
+			#habitacionesTERRAZA{
+				box-shadow: 4px 4px 15px black;
+				border: 5px brown;
+				border-radius: 20px;
+				background-color: #592D14;
+				margin-right:3.6%;
+				margin-left:69%;
+				margin-top:2%;
+				padding: 1.5em;
+			}
+			#habitacionesTERRAZA p{
+				color: white;
+				font-family: Bukhari Script, sans-serif;
+				text-shadow: .5px .5px;
+				font-size: 20px;
+			}
+			#habitacionesBOSQUE{
+				box-shadow: 4px 4px 15px black;
+				border: 5px brown;
+				border-radius: 20px;
+				background-color: #592D14;
+				margin-right:69.9%;
+				margin-left:3%;
+				margin-top:2%;
+				padding: 1.5em;
+			}
+			#habitacionesBOSQUE p{
+				color: white;
+				font-family: Bukhari Script, sans-serif;
+				text-shadow: .5px .5px;
+				font-size: 20px;
+			}
+			/**********BOTON RESERVAR****************/
+			#botonRESERVAR {/*forma del boton para que el tamaño de la letra en el boton sea mayor y destaque más*/
+				font-family: monospace;
+				border-radius:30px;
+				border-top: 2px solid black;
+				border-bottom: 1px solid white;
+				width: 30%;
+				background-color:#3BB06F;
+				color: white;
+				margin: 0;
+				padding: 0.3em;
+				font-size: 20px;
+			}
+			#botonRESERVAR:hover{
+				transition: .4s;
+				width:32%;
+				background-color:white;
+				margin: 0;
+				color: #3BB06F;
+				padding: 0.3em;
+				font-size: 20px;
+			}
+			/***************RESERVAS**************/
+			#reservas{
+				box-shadow: 4px 4px 5px black;
+				border: 5px brown;
+				border-radius: 20px;
+				background-color: #592D14;
+				margin-right:20%;
+				margin-left:20%;
+				margin-top:1%;
+				padding: 1em;
+				padding-bottom: 5%;
+			}
+			#reservas p{
+				margin-top: 1%;
+			}
+			/********************ELEMENTOS FORMULARIO******************/	
+
+			div.elementos {
+				margin: 20px 0;
+			}
+
+			div.elementos.enlinea {
+				width: 49%;
+				display: inline-block;
+				float: left;
+			}
+			input, select, textarea {
+				margin-left: 4%;
+				border-radius: 2px;
+				border: 2px solid #777;
+				box-sizing: border-box;
+				font-size: 1.25em;
+				font-family: Bukhari Script, sans-serif;
+				width: 93%;
+				padding: 10px;
+			}
+
+			div.elementos.enlinea input {
+				margin-left: 3%;
+				width: 95%;
+				display: inline-block;
+			}
+			.elementos label{
+				margin-left: 4%;
+				color: white;
+				font-family: Bukhari Script, sans-serif;
+				text-shadow: .5px .5px;
+				font-size: 20px;
+			}
+			/***********Boton_para_ver_Habitcionses***********/
+			#botonHabitaciones{
+				padding: 1em;
+				color: black;
+				font-size: 20px;
+				margin-top: 1%;
+				width: 35%;
+			}
+			#botonHabitaciones a{
+				color: black;
+			}
+			#botonHabitaciones:hover{
+				background-color:#BA4A00;
+				color: white;
+				transition: 0.3s;
+			}
+			#botonHabitaciones:hover a{
+				background-color:#BA4A00;
+				color: white;
+				transition: 0.3s;
+			}
+			/***********Boton_para_enviar_reservas***********/
+			#botonEnviarReserva{
+				margin-top: 1%;
+				width: 20%;
+				float: left;
+			}
+			#botonEnviarReserva:hover{
+				width: 20%;
+				background-color: green;
+				color: white;
+				transition: 0.3s;
+			}
+			/********************Se_ha_enviado_Correctamente*************************/
+			#enviadoCorrectamente{
+				box-shadow: 4px 4px 15px black;
+				border: 5px brown;
+				border-radius: 20px;
+				background-color: #592D14;
+				margin-right:30%;
+				margin-left:30%;
+				margin-top:2%;
+				padding: 1.5em;
+			}
+			#enviadoCorrectamente p{
+				color: white;
+				font-family: Bukhari Script, sans-serif;
+				text-shadow: .5px .5px;
+				font-size: 30px;
+			}
+			/*****************GASTRONOMIA_****************/
+			#gastronomia{
+				box-shadow: 4px 4px 5px black;
+				border: 5px brown;
+				border-radius: 20px;
+				background-color: #592D14;
+				margin-right:20%;
+				margin-left:20%;
+				margin-top:1%;
+				padding: 2em;
+				padding-left: 3em;
+			}
+			/**************DESAYUNO**********/
+			#desayuno{
+				margin-right: 275px;
+				margin-left: 265px;
+				box-shadow: 4px 4px 15px black;
+				border: 5px brown;
+				border-radius: 20px;
+				background-color: #592D14;
+				padding: 0 1.5em 1.5em 1.5em;	
+			}
+			#desayuno p{
+				color: white;
+				font-family: Bukhari Script, sans-serif;
+				text-shadow: .5px .5px;
+				font-size: 20px;
+			}
+			/**************PULPO**********/
+			#pulpo{
+				box-shadow: 4px 4px 15px black;
+				border: 5px brown;
+				border-radius: 20px;
+				background-color: #592D14;
+				margin-right: 275px;
+				margin-left: 265px;
+				padding: 0 1.5em 1.5em 1.5em;	
+			}
+			#pulpo p{
+				color: white;
+				font-family: Bukhari Script, sans-serif;
+				text-shadow: .5px .5px;
+				font-size: 20px;
+			}
+			/**************BACALAO**********/
+			#bacalao{
+				box-shadow: 4px 4px 15px black;
+				border: 5px brown;
+				border-radius: 20px;
+				background-color: #592D14;
+				margin-right: 275px;
+				margin-left: 265px;
+				padding: 0 1.5em 1.5em 1.5em;	
+			}
+			#bacalao p{
+				color: white;
+				font-family: Bukhari Script, sans-serif;
+				text-shadow: .5px .5px;
+				font-size: 20px;
+			}
+			/************Mensaje_************/	
+			#mensaje{
+				color: white;
+				font-family: Bukhari Script, sans-serif;
+				text-shadow: .5px .5px;
+				font-size: 20px;
+			}
+			/*********************Contacto_**************/
+			#contacto1{
+				box-shadow: 4px 4px 15px black;
+				width: 270px;
+				height: 200px;
+				border: 5px brown;
+				border-radius: 20px;
+				background-color: #592D14;
+				margin-right:59.1%;
+				margin-left:20%;
+				margin-top:2%;
+				padding: 1.5em;
+				transition-property: width;
+				transition-duration: 0.5s;
+				transition-timing-function: linear;
+				transition-delay: 0.3s;
+			}
+			#contacto2{
+				box-shadow: 4px 4px 15px black;
+				border: 5px brown;
+				width: 270px;
+				height: 200px;
+				border-radius: 20px;
+				background-color: #592D14;
+				margin-right:43%;
+				margin-left:42%;
+				margin-top:-13.5%;
+				padding: 1.5em;
+				transition-property: width;
+				transition-duration: 0.5s;
+				transition-timing-function: linear;
+				transition-delay: 0.3s;
+			}
+			#contacto3{
+				box-shadow: 4px 4px 15px black;
+				width: 270px;
+				height: 200px;
+				border-radius: 20px;
+				background-color: #592D14;
+				margin-right:22.8%;
+				margin-left:62.2%;
+				margin-top:-13.7%;
+				padding: 1.5em;
+				transition-property: width;
+				transition-duration: 0.5s;
+				transition-timing-function: linear;
+				transition-delay: 0.3s;
+			}
+			#contacto1:hover{
+				width: 300px;
+			}
+			#contacto2:hover{
+				width: 300px;
+			}
+			#contacto3:hover{
+				width: 300px;
+			}
+			#contacto1,#contacto2,#contacto3{
+				color: white;
+				font-family: Bukhari Script, sans-serif;
+				text-shadow: .5px .5px;
+				font-size: 16px;
+			}
+			/*****************SOBRE_MI****************/
+			#sobremi{
+				box-shadow: 4px 4px 5px black;
+				border: 5px brown;
+				border-radius: 20px;
+				background-color: #592D14;
+				margin-right:22.7%;
+				margin-left:9%;
+				margin-top:1%;
+				padding: 2em;
+				padding-left: 3em;
+			}
+			#sobremi li{
+				color: white;
+				font-family: Bukhari Script, sans-serif;
+				text-shadow: .5px .5px;
+				font-size: 16px;
+			}
+			#sobremi h2{
+				color: burlywood;
+			}
+			/*****************QUE_APRENDI****************/
+			#queaprendi{
+				box-shadow: 4px 4px 5px black;
+				border: 5px brown;
+				border-radius: 20px;
+				background-color: #592D14;
+				margin-right:20%;
+				margin-left:20%;
+				margin-top:1%;
+				padding: 2em;
+				padding-left: 3em;
+			}		
+			#queaprendi li{
+				color: white;
+				font-family: Bukhari Script, sans-serif;
+				text-shadow: .5px .5px;
+				font-size: 20px;
+			}
+			/***************FOTOS**************/
+			.foto1 {
+			border-radius: 10px;
+			margin: 10px;
+			margin-top: 2%;
+			margin-left: 11%;
+			border-color: black; 
+			float: left; 
+		}
+			.foto2 {
+				border-radius: 10px;
+				border-color: black; 
+				margin-bottom: 1%;
+				margin-top: 4%;
+				float: left; 
+				width: 600px; 
+			}
+			.foto3 {
+				box-shadow: 3px 3px 5px black;
+				border-radius: 10px;
+				border-color: black; 
+				margin-bottom: 5%;
+				margin-top: -6%;
+				margin-right: -5%;
+				float: right; 
+				width: 300px; 
+			}
+			.foto4{
+				border-radius: 10px;
+				border-color: black; 
+				margin-bottom: 1%;
+				float: left; 
+				width: 400px; 
+			}
+			.foto5{
+				box-shadow: 2px 2px 5px black;
+				border-radius: 10px;
+				border-color: black; 
+				margin-top: 6%;
+				margin-left: -16%;
+				float: center;
+			}
+			.foto6{
+				border-radius: 10px;
+				padding: 1em;
+				float: left;
+				border-top: 5%;
+			}
+			.foto7{
+				border-radius: 10px;
+				padding: 1em;
+				float: right;
+				border-top: 6%;
+			}
+			.foto8{
+				border-radius: 10px;
+				padding: 1em;
+				float: left;
+				border-top: 5%;
+				margin-left: 30%;
+			}
+			.foto9{
+				margin-left: 15%;
+			}
