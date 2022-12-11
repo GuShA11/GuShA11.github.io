@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="icon" href="./img/logo2.png">
+    <link rel="stylesheet" href="./img/icomoon-v1.0/style.css">
+    <link rel="stylesheet" href="./css/css.css">
+</head>
+
+<body>
+    <div class="contenedor">
+        <div class="black-bar">
+            <div class="redes-izquierda">
+                <a href="#"><span class="icon-facebook"></span></a>
+                <a href="#"><span class="icon-twitter"></span></a>
+                <a href="#"><span class="icon-youtube"></span></a>
+                <a href="#"><span class="icon-instagram"></span></a>
+            </div>
+            <div class="contacto-derecha">
+                <a href="#"><span class="icon-phone"> 987 654 321</span></a>
+                <a href="#"><span class="icon-envelop"> GoncaloHairStudio@gmail.com</span></a>
+            </div>
+        </div>
+        <header id="nav" style="top: 58px;">
+            <div class="logo">
+                <img src="./img/logo.png" alt="">
+            </div>
+            <nav class="menu">
+                <a href="./index.html">INICIO</a>
+                <div class="right-menu">
+                    <button class="menu-button"><a href="./servicios.html">SERVICIOS</a></button>
+                    <div class="dropdown-menu">
+                        <a href="#">Peluquería</a>
+                        <a href="#">Estética</a>
+                        <a href="#">Tratamientos</a>
+                    </div>
+                </div>
+                <a href="./salones.html">SALONES</a>
+                <a href="./contacto.html">CONTACTO</a>
+            </nav>
+        </header>
+
+        <seccion class="contacto">
+            <article>
+                <div class="titulo">
+                    <h1>CONTACTO</h1>
+                    <hr class="yellow">
+                </div>
+                <div class="caja-contacto">
+                    <div class="texto-contacto">
+                        <div class="form-contacto">
+                            <form action="#">
+                                <h2>SOLICITA INFORMACIÓN</h2><br>
+                                <p>¡Estaremos encantados de poder ayudarte!
+                                    Recuerda que en los salones GoncaloHairStudio no es necesario pedir cita previa.</p>
+                                <br>
+                                <label for="name">Nombre y apellidos:</label><br>
+                                <input type="text" id="name" name="name" size="30"
+                                    placeholder="Goncalo Rafael Rodrigues Bento"><br><br>
+                                <label for="email">Email</label><br>
+                                <input type="text" id="email" name="email" size="30"
+                                    placeholder="GoncaloHairStudio@gmail.com"><br><br>
+                                <label for="tel">Teléfono:</label><br>
+                                <input type="text" id="tel" name="tel" placeholder="987 654 321"><br><br>
+                                <label for="asunto">Asunto:</label><br>
+                                <input type="text" id="asunto" name="asunto"><br><br>
+                                <label for="mensaje">Mensaje:</label><br>
+                                <textarea id="mensaje" name="mensaje" rows="5" cols="30"></textarea><br><br>
+                                <input class="enviar" type="submit" value="Enviar">
+                            </form>
+                        </div>
+                        <div class="img-contacto">
+                            <img src="./img/logo_pie.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </seccion>
+
+        <seccion class="tabla">
+            <article>
+                <div class="titulo">
+                    <h1>NUESTROS EMPLEADOS</h1>
+                    <hr class="yellow">
+                </div>
+                <div class="caja-tabla">
+                    <table>
+                        <tr>
+                          <th>Nombre</th>
+                          <th>Contacto</th>
+                          <th>Pais</th>
+                        </tr>
+                        <tr>
+                          <td>Gonçalo</td>
+                          <td>987 654 321</td>
+                          <td>Portugal</td>
+                        </tr>
+                        <tr>
+                          <td>Fernando</td>
+                          <td>601 604 321</td>
+                          <td>España</td>
+                        </tr>
+                        <tr>
+                          <td>Maria</td>
+                          <td>617 494 821</td>
+                          <td>Portugal</td>
+                        </tr>
+                        <tr>
+                          <td>Miguel</td>
+                          <td>917 659 214</td>
+                          <td>España</td>
+                        </tr>
+                      </table>
+                </div>
+            </article>
+        </seccion>
+
+        <footer>
+            <div class="info-footer">
+                <a href="#">@ 2022 Gonçalo Hair Studio</a> | <a href="#">Privacidad</a> | <a href="#">Cookies</a>
+            </div>
+            <div class="redes">
+                <a href="#"><span class="icon-facebook"></span></a>
+                <a href="#"><span class="icon-twitter"></span></a>
+                <a href="#"><span class="icon-youtube"></span></a>
+                <a href="#"><span class="icon-instagram"></span></a>
+            </div>
+        </footer>
+    </div>
+
+    <!--SCRIPT QUE OCULTA LA BLACK BAR SI NO NOS SITUAMOS ARRIBA DE TODO-->
+    <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function () {
+            if (document.body.scrollTop >= 80 || document.documentElement.scrollTop >= 80) {
+                document.getElementById("nav").style.top = "0px";
+            } else {
+                document.getElementById("nav").style.top = "58px";
+            }
+        }
+    </script>
+</body>
+
+</html>

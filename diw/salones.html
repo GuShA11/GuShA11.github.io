@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salones</title>
+    <link rel="icon" href="./img/logo2.png">
+    <link rel="stylesheet" href="./img/icomoon-v1.0/style.css">
+    <link rel="stylesheet" href="./css/css.css">
+</head>
+
+<body>
+    <div class="contenedor">
+        <div class="black-bar">
+            <div class="redes-izquierda">
+                <a href="#"><span class="icon-facebook"></span></a>
+                <a href="#"><span class="icon-twitter"></span></a>
+                <a href="#"><span class="icon-youtube"></span></a>
+                <a href="#"><span class="icon-instagram"></span></a>
+            </div>
+            <div class="contacto-derecha">
+                <a href="#"><span class="icon-phone"> 987 654 321</span></a>
+                <a href="#"><span class="icon-envelop"> GoncaloHairStudio@gmail.com</span></a>
+            </div>
+        </div>
+        <header id="nav" style="top: 58px;">
+            <div class="logo">
+                <img src="./img/logo.png" alt="">
+            </div>
+            <nav class="menu">
+                <a href="./index.html">INICIO</a>
+                <div class="right-menu">
+                    <button class="menu-button"><a href="./servicios.html">SERVICIOS</a></button>
+                    <div class="dropdown-menu">
+                        <a href="#">Peluquería</a>
+                        <a href="#">Estética</a>
+                        <a href="#">Tratamientos</a>
+                    </div>
+                </div>
+                <a href="./salones.html">SALONES</a>
+                <a href="./contacto.html">CONTACTO</a>
+            </nav>
+        </header>
+
+        <seccion class="salones">
+            <article>
+                <div class="titulo">
+                    <h1>NUESTROS SALONES</h1>
+                    <hr class="yellow">
+                </div>
+                <div class="caja-salones">
+                    <div class="texto-salones">
+                        <div class="p-salones">
+                            <p class="mayor">UN DISEÑO ÚNICO</p>
+                            <p>Hemos creado una marca internacional, consolidada, con estilo propio y reconocible dentro
+                                del mercado.</p> <br>
+                            <p>Los salones GoncaloHairStudio se diseñan pensando en el confort del cliente para crear
+                                una
+                                experiencia única. En el momento en que accede al salón, el cliente descubre nuestro
+                                nuevo concepto visual compuesto por: una paleta cromática neutra y cálida, un mobiliario
+                                de madera y materiales inspirados en la naturaleza, los suelos blancos y brillantes, la
+                                iluminación específica que nos permite reproducir fielmente los colores que se trabajan
+                                en el cabello y la exclusiva zona de Hair Spa y tratamientos, con un ambiente más tenue
+                                y relajante.</p><br>
+                            <p>Nuestros clientes disfrutan de un espacio confortable y profesional, donde reciben un
+                                servicio de asesoramiento completo de imagen; color, corte, peinado. Trabajamos con una
+                                amplia gama de producto profesional de las mejores marcas que además se puede adquirir
+                                en nuestra zona de tienda.</p><br>
+                        </div>
+                        <div class="img-salones">
+                            <img src="./img/salon.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </seccion>
+
+        <seccion class="salones">
+            <article>
+                <div class="titulo">
+                    <h1>NUESTROS SALONES</h1>
+                    <hr class="yellow">
+                </div>
+                <div class="caja-salones">
+                    <img class="imagen-salones" src="./img/salon2.jpg" alt="">
+                </div>
+            </article>
+        </seccion>
+
+        <footer>
+            <div class="info-footer">
+                <a href="#">@ 2022 Gonçalo Hair Studio</a> | <a href="#">Privacidad</a> | <a href="#">Cookies</a>
+            </div>
+            <div class="redes">
+                <a href="#"><span class="icon-facebook"></span></a>
+                <a href="#"><span class="icon-twitter"></span></a>
+                <a href="#"><span class="icon-youtube"></span></a>
+                <a href="#"><span class="icon-instagram"></span></a>
+            </div>
+        </footer>
+    </div>
+
+    <!--SCRIPT QUE OCULTA LA BLACK BAR SI NO NOS SITUAMOS ARRIBA DE TODO-->
+
+    <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function () {
+            if (document.body.scrollTop >= 80 || document.documentElement.scrollTop >= 80) {
+                document.getElementById("nav").style.top = "0px";
+            } else {
+                document.getElementById("nav").style.top = "58px";
+            }
+        }
+    </script>
+</body>
+
+</html>
