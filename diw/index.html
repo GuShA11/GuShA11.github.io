@@ -26,8 +26,13 @@
             </div>
         </div>
         <header id="nav" style="top: 58px;">
-            <div class="logo">
-                <img src="./img/logo.png" alt="">
+            <div class="logo" id="play">
+                <a href="#">
+                    <audio id="heartbeat" src="./img/hair-cutting-with-scissors_GJr5SSV__WM.mp3">
+                        Your browser does not support the <code>audio</code> element.
+                    </audio>
+                    <img src="./img/logo.png" alt="">
+                </a>
             </div>
             <nav class="menu">
                 <a href="./index.html">INICIO</a>
@@ -47,7 +52,12 @@
         <seccion class="caracteristicas">
             <article>
                 <div class="thumb">
-                    <img src="./img/fondo2.jpg" alt="">
+
+                    <video width="100%"  height="100%"  autoplay  loop muted>
+                        <source src="./img/production ID_3998510 .mp4" />
+                        <img src="./img/fondo2.png" title=Tu navegador no soporta la etiqueta de <video>" />
+                        </video>  
+                    </video>
                 </div>
                 <div class="caja-padre">
                     <div class="c1"><img src="./img/logo2.png"></div>
@@ -67,7 +77,6 @@
             </article>
         </seccion>
 
-
         <seccion class="promociones">
             <article>
                 <div class="titulo">
@@ -77,7 +86,7 @@
                 <div class="caja-promociones">
                     <div class="promo">
                         <div class="imagen-promo">
-                            <img src="./img/promocion1.jpg" alt="">
+                            <img src="./img/promocion1.png" alt="">
                         </div>
                         <div class="texto-promociones">
                             <h3>50% DESCUENTO PRIMERA VISITA</h3>
@@ -86,7 +95,7 @@
                     </div>
                     <div class="promo">
                         <div class="imagen-promo">
-                            <img src="./img/promocion3.jpg" alt="">
+                            <img src="./img/promocion3.png" alt="">
                         </div>
                         <div class="texto-promociones">
                             <h3>BLACK FRIDAY DESCUENTO</h3>
@@ -114,7 +123,7 @@
                 </div>
                 <div class="caja-internacional">
                     <div class="imagen-internacional">
-                        <img src="./img/mapa-mundi.png" alt="">
+                        <!--<img src="./img/mapa-mundi.png" alt="">-->
                     </div>
                     <div class="texto-internacional">
                         <div class="texto">
@@ -173,7 +182,6 @@
     </div>
 
     <!--SCRIPT QUE OCULTA LA BLACK BAR SI NO NOS SITUAMOS ARRIBA DE TODO-->
-
     <script>
         var prevScrollpos = window.pageYOffset;
         window.onscroll = function () {
@@ -184,6 +192,17 @@
             }
         }
     </script>
+
+    <!--SCRIPT QUE INICIA EL AUDIO AL CLICAR-->
+    <script>
+        var playBtn = document.getElementById('play');
+        audio = document.getElementById("heartbeat");
+
+        playBtn.addEventListener('click', function () {
+            audio.play();
+        }, false);
+    </script>
+
 
 </body>
 
