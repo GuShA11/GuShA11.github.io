@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -15,10 +15,10 @@
     <div class="contenedor">
         <div class="black-bar">
             <div class="redes-izquierda">
-                <a href="#"><span class="icon-facebook"></span></a>
-                <a href="#"><span class="icon-twitter"></span></a>
-                <a href="#"><span class="icon-youtube"></span></a>
-                <a href="#"><span class="icon-instagram"></span></a>
+                <a href="https://www.facebook.com/">#<span class="icon-facebook"></span></a>
+                <a href="https://twitter.com/">#<span class="icon-twitter"></span></a>
+                <a href="https://www.youtube.com/">#<span class="icon-youtube"></span></a>
+                <a href="https://www.instagram.com/">#<span class="icon-instagram"></span></a>
             </div>
             <div class="contacto-derecha">
                 <a href="#"><span class="icon-phone"> 987 654 321</span></a>
@@ -31,13 +31,13 @@
                     <audio id="heartbeat" src="./img/hair-cutting-with-scissors_GJr5SSV__WM.mp3">
                         Your browser does not support the <code>audio</code> element.
                     </audio>
-                    <img src="./img/logo.png" alt="">
+                    <img src="./img/logo.png" alt="imagen del logo" aria-orientation="horizontal">
                 </a>
             </div>
             <nav class="menu">
-                <a href="./index.html">INICIO</a>
+                <a class="active" href="./index.html">INICIO</a>
                 <div class="right-menu">
-                    <button class="menu-button"><a href="./servicios.html">SERVICIOS</a></button>
+                    <button title="boton que despliega el menú de servicios" onclick='location.href="./servicios.html"' class="menu-button"><span>SERVICIOS</span></button>
                     <div class="dropdown-menu">
                         <a href="#">Peluquería</a>
                         <a href="#">Estética</a>
@@ -49,35 +49,30 @@
             </nav>
         </header>
 
-        <seccion class="caracteristicas">
+        <div class="caracteristicas">
             <article>
                 <div class="thumb">
-
-                    <video width="100%"  height="100%"  autoplay  loop muted>
-                        <source src="./img/production ID_3998510 .mp4" />
-                        <img src="./img/fondo2.png" title=Tu navegador no soporta la etiqueta de <video>" />
-                        </video>  
-                    </video>
+                    <video src="./img/production_ID_3998510.mp4" aria-orientation="horizontal" autoplay loop muted poster="./img/fondo1.png"></video>
                 </div>
                 <div class="caja-padre">
-                    <div class="c1"><img src="./img/logo2.png"></div>
+                    <div class="c1"><img src="./img/logo2.png" alt="Imagen de logo en blanco con fondo oscuro" aria-orientation="horizontal"></div>
                     <div class="c2 caja"><span class="icon-price-tags"></span>
-                        <h3>PRECIOS COMPETITIVOS</h3>
+                        <h2>PRECIOS COMPETITIVOS</h2>
                     </div>
                     <div class="c3 caja"><span class="icon-location"></span>
-                        <h3>MÁS DE 400 SALONES</h3>
+                        <h2>MÁS DE 400 SALONES</h2>
                     </div>
                     <div class="c4 caja"><span class="icon-unlocked"></span>
-                        <h3>SIN RESERVAS</h3>
+                        <h2>SIN RESERVAS</h2>
                     </div>
                     <div class="c5 caja"><span class="icon-clock"></span>
-                        <h3>AMPLIOS HORARIOS</h3>
+                        <h2>AMPLIOS HORARIOS</h2>
                     </div>
                 </div>
             </article>
-        </seccion>
+        </div>
 
-        <seccion class="promociones">
+        <div class="promociones">
             <article>
                 <div class="titulo">
                     <h1>PROMOCIONES</h1>
@@ -86,36 +81,36 @@
                 <div class="caja-promociones">
                     <div class="promo">
                         <div class="imagen-promo">
-                            <img src="./img/promocion1.png" alt="">
+                            <img src="./img/promocion1.png" alt="promocion 1" aria-orientation="horizontal">
                         </div>
                         <div class="texto-promociones">
-                            <h3>50% DESCUENTO PRIMERA VISITA</h3>
+                            <h2>50% DESCUENTO PRIMERA VISITA</h2>
                             <a href="#">Más info</a>
                         </div>
                     </div>
                     <div class="promo">
                         <div class="imagen-promo">
-                            <img src="./img/promocion3.png" alt="">
+                            <img src="./img/promocion3.png" alt="promocion 2" aria-orientation="horizontal">
                         </div>
                         <div class="texto-promociones">
-                            <h3>BLACK FRIDAY DESCUENTO</h3>
+                            <h2>BLACK FRIDAY DESCUENTO</h2>
                             <a href="#">Más info</a>
                         </div>
                     </div>
                     <div class="promo">
                         <div class="imagen-promo">
-                            <img src="./img/promocion2.png" alt="">
+                            <img src="./img/promocion2.png" alt="promocion 3" aria-orientation="horizontal">
                         </div>
                         <div class="texto-promociones">
-                            <h3>BEATY PASS DIA DE LA MADRE</h3>
+                            <h2>BEATY PASS DIA DE LA MADRE</h2>
                             <a href="#">Más info</a>
                         </div>
                     </div>
                 </div>
             </article>
-        </seccion>
+        </div>
 
-        <seccion class="internacional">
+        <div class="internacional">
             <article>
                 <div class="titulo">
                     <h1>INTERNACIONAL</h1>
@@ -123,25 +118,24 @@
                 </div>
                 <div class="caja-internacional">
                     <div class="imagen-internacional">
-                        <!--<img src="./img/mapa-mundi.png" alt="">-->
                     </div>
                     <div class="texto-internacional">
                         <div class="texto">
                             <span>50</span>
-                            <h4>AÑOS DE EXPERIENCIA</h4>
+                            <h2>AÑOS DE EXPERIENCIA</h4>
                         </div>
                         <div class="texto">
                             <span>5000</span>
-                            <h4>ESTILISTAS PROFESIONALES</h4>
+                            <h2>ESTILISTAS PROFESIONALES</h2>
                         </div>
                     </div>
                 </div>
             </article>
-        </seccion>
+        </div>
 
 
 
-        <seccion class="sponsors">
+        <div class="sponsors">
             <aside>
                 <div class="caja-main">
                     <div class="titulo">
@@ -149,35 +143,37 @@
                         <hr class="yellow">
                     </div>
                     <div class="ad">
-                        <img src="./img/logoipsum-285.png" alt="">
+                        <img src="./img/logoipsum-285.png" alt="sponsor 1" aria-orientation="horizontal">
                     </div>
                     <div class="ad">
-                        <img src="./img/logoipsum-286.png" alt="">
+                        <img src="./img/logoipsum-286.png" alt="sponsor 2" aria-orientation="horizontal">
                     </div>
                     <div class="ad">
-                        <img src="./img/logoipsum-288.png" alt="">
+                        <img src="./img/logoipsum-288.png" alt="sponsor 3" aria-orientation="horizontal">
                     </div>
                     <div class="ad">
-                        <img src="./img/logoipsum-287.png" alt="">
+                        <img src="./img/logoipsum-287.png" alt="sponsor 4" aria-orientation="horizontal">
                     </div>
                     <div class="ad">
-                        <img src="./img/logoipsum-262.png" alt="">
+                        <img src="./img/logoipsum-262.png" alt="sponsor 5" aria-orientation="horizontal">
                     </div>
 
                 </div>
             </aside>
-        </seccion>
+        </div>
 
         <footer>
             <div class="info-footer">
-                <a href="#">@ 2022 Gonçalo Hair Studio</a> | <a href="#">Privacidad</a> | <a href="#">Cookies</a>
-            </div>
+                <div class="info">
+                <a href="#">@ 2023 Gonçalo Hair Studio</a> | <a href="#">Privacidad</a> | <a href="#">Cookies</a>
+                </div>
             <div class="redes">
-                <a href="#"><span class="icon-facebook"></span></a>
-                <a href="#"><span class="icon-twitter"></span></a>
-                <a href="#"><span class="icon-youtube"></span></a>
-                <a href="#"><span class="icon-instagram"></span></a>
+                <a href="https://www.facebook.com/">#<span class="icon-facebook"></span></a>
+                <a href="https://twitter.com/">#<span class="icon-twitter"></span></a>
+                <a href="https://www.youtube.com">#<span class="icon-youtube"></span></a>
+                <a href="https://www.instagram.com/">#<span class="icon-instagram"></span></a>
             </div>
+        </div>
         </footer>
     </div>
 
@@ -193,7 +189,7 @@
         }
     </script>
 
-    <!--SCRIPT QUE INICIA EL AUDIO AL CLICAR-->
+    <!--SCRIPT QUE INICIA EL AUDIO AL CLICAR EN EL LOGO-->
     <script>
         var playBtn = document.getElementById('play');
         audio = document.getElementById("heartbeat");
@@ -202,8 +198,6 @@
             audio.play();
         }, false);
     </script>
-
-
 </body>
 
 </html>
