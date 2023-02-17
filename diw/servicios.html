@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -15,25 +15,25 @@
     <div class="contenedor">
         <div class="black-bar">
             <div class="redes-izquierda">
-                <a href="#"><span class="icon-facebook"></span></a>
-                <a href="#"><span class="icon-twitter"></span></a>
-                <a href="#"><span class="icon-youtube"></span></a>
-                <a href="#"><span class="icon-instagram"></span></a>
-            </div>
-            <div class="contacto-derecha">
-                <a href="#"><span class="icon-phone"> 987 654 321</span></a>
-                <a href="#"><span class="icon-envelop"> GoncaloHairStudio@gmail.com</span></a>
-            </div>
+               <a href="https://www.facebook.com/">#<span class="icon-facebook"></span></a>
+               <a href="https://twitter.com/">#<span class="icon-twitter"></span></a>
+               <a href="https://www.youtube.com/">#<span class="icon-youtube"></span></a>
+               <a href="https://www.instagram.com/">#<span class="icon-instagram"></span></a>
+           </div>
+           <div class="contacto-derecha">
+            <a href="#"><span class="icon-phone"> 987 654 321</span></a>
+            <a href="#"><span class="icon-envelop"> GoncaloHairStudio@gmail.com</span></a>
         </div>
-        <header id="nav" style="top: 58px;">
-            <div class="logo">
-                <a href="./index.html">
-                <img src="./img/logo.png" alt=""></a>
+    </div>
+    <header id="nav" style="top: 58px;">
+        <div class="logo">
+            <a href="./index.html">
+                <img src="./img/logo.png" alt="imagen del logo"></a>
             </div>
             <nav class="menu">
                 <a href="./index.html">INICIO</a>
                 <div class="right-menu">
-                    <button class="menu-button"><a href="./servicios.html">SERVICIOS</a></button>
+                    <button title="boton que despliega el menú de servicios" onclick='location.href="./servicios.html"' class="menu-button"><span class="active">SERVICIOS</span></button>
                     <div class="dropdown-menu">
                         <a href="#">Peluquería</a>
                         <a href="#">Estética</a>
@@ -152,29 +152,31 @@
 
         <footer>
             <div class="info-footer">
-                <a href="#">@ 2022 Gonçalo Hair Studio</a> | <a href="#">Privacidad</a> | <a href="#">Cookies</a>
-            </div>
-            <div class="redes">
-                <a href="#"><span class="icon-facebook"></span></a>
-                <a href="#"><span class="icon-twitter"></span></a>
-                <a href="#"><span class="icon-youtube"></span></a>
-                <a href="#"><span class="icon-instagram"></span></a>
-            </div>
-        </footer>
-    </div>
+                <div class="info">
+                    <a href="#">@ 2023 Gonçalo Hair Studio</a> | <a href="#">Privacidad</a> | <a href="#">Cookies</a>
+                </div>
+                <div class="redes">
+                 <a href="https://www.facebook.com/">#<span class="icon-facebook"></span></a>
+                 <a href="https://twitter.com/">#<span class="icon-twitter"></span></a>
+                 <a href="https://www.youtube.com/">#<span class="icon-youtube"></span></a>
+                 <a href="https://www.instagram.com/">#<span class="icon-instagram"></span></a>
+             </div>
+         </div>
+     </footer>
+ </div>
 
-    <!--SCRIPT QUE OCULTA LA BLACK BAR SI NO NOS SITUAMOS ARRIBA DE TODO-->
+ <!--SCRIPT QUE OCULTA LA BLACK BAR SI NO NOS SITUAMOS ARRIBA DE TODO-->
 
-    <script>
-        var prevScrollpos = window.pageYOffset;
-        window.onscroll = function () {
-            if (document.body.scrollTop >= 80 || document.documentElement.scrollTop >= 80) {
-                document.getElementById("nav").style.top = "0px";
-            } else {
-                document.getElementById("nav").style.top = "58px";
-            }
+ <script>
+    var prevScrollpos = window.pageYOffset;
+    window.onscroll = function () {
+        if (document.body.scrollTop >= 80 || document.documentElement.scrollTop >= 80) {
+            document.getElementById("nav").style.top = "0px";
+        } else {
+            document.getElementById("nav").style.top = "58px";
         }
-    </script>
+    }
+</script>
 </body>
 
 </html>
